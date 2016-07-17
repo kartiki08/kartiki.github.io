@@ -2,13 +2,13 @@
 Personal website - Currently Under Construction
 
 |Outline|
-Main Page / Home
+Main Page / Home:
 About Me, Interests, Snippets of Work and Side Projects
 
-Projects
+Projects:
 Case Studies and projects in detail
 
-Contact (may want to just place it on main page)
+Contact (may want to just place it on main page):
 Link to Email, Resume PDF and Other Social Media... 
 
 

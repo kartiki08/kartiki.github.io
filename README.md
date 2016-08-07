@@ -3,7 +3,7 @@ Personal website - Currently Under Construction
 
 |Outline|
 Main Page / Home:
-About Me, Interests, Snippets of Work and Side Projects
+About Me, Snippets of Work and Side Projects, Interests
 
 Projects:
 Case Studies and projects in detail
@@ -13,4 +13,6 @@ Link to Email, Resume PDF and Other Social Media...
 
 
 Sources/Guides Used: 
-http://learn.shayhowe.com/html-css/building-your-first-web-page/
+- http://learn.shayhowe.com/html-css/building-your-first-web-page/
+- Adobe Dreamweaver CC Tutorials
+-

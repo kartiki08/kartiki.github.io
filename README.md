@@ -1,4 +1,4 @@
-# kartiki.github.io
+# kartikisharma.github.io
 Personal website - Currently Under Construction
 
 |Outline|

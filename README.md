@@ -15,4 +15,3 @@ Link to Email, Resume PDF and Other Social Media...
 Sources/Guides Used: 
 - http://learn.shayhowe.com/html-css/building-your-first-web-page/
 - Adobe Dreamweaver CC Tutorials
--

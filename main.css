@@ -59,9 +59,6 @@ h1, h2, h3 {
 	color: white;
 	padding: 20px;
 }
-#about h1 {
-	color: #be0030;
-}
 #intro {
 	/*padding: 0 50px; */
 	font-size: 20px;
@@ -78,7 +75,7 @@ h1, h2, h3 {
 }
 h1 {
 	font-style: bold;
-	color: #FF6A5C;
+	color: #be0030;
 	text-transform: uppercase;
 }
 h2 {
@@ -86,7 +83,7 @@ h2 {
 	text-transform: uppercase;
 }
 h3 {
-	color: #59272D;
+	color: #FF6A5C;
 }
 
 #work p {

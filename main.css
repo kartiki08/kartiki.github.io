@@ -52,29 +52,7 @@ h1, h2, h3 {
   Color Schemes
   ========================================
 */
-#about {
-	background: #f75454;
-	background: #f1c1c0;
-	color: #59272D;
-	color: white;
-	padding: 20px;
-}
-#intro {
-	/*padding: 0 50px; */
-	font-size: 20px;
-}
-
-#work {
-	padding: 20px;
-	color: white;
-}
-#contact {
-	padding: 20px;
-	background: #f1c1c0;
-	color: white;
-}
 h1 {
-	font-style: bold;
 	color: #be0030;
 	text-transform: uppercase;
 }
@@ -85,9 +63,25 @@ h2 {
 h3 {
 	color: #FF6A5C;
 }
-
+#about {
+	color: white;
+	padding: 20px;
+}
+#intro {
+	/*padding: 0 50px; */
+	font-size: 20px;
+}
+#work {
+	padding: 20px;
+	color: white;
+}
 #work p {
 	color: black;
+}
+#contact {
+	padding: 20px;
+	background: #f1c1c0;
+	color: white;
 }
 
 /*

@@ -1,70 +1,119 @@
 <!Doctype html>
-<html>
+<html lang="en">
 <head>
-  <title>Kartiki Sharma | An Aspiring Web/App Developer</title>
-  <meta charset="utf-8"/>
-  <meta name="description" content="Personal Website: Portfolio">
-  <meta name="keywords" content="Kartiki, Sharma, Waterloo, CS, computer, science, uwaterloo, software, web, design, development, app">
-  <!-- Links below are still under construction -->
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-  crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
-  rel="stylesheet" type="text/css">
-  <!--Till here -->
-  <link rel="stylesheet" type="text/css" href="main.css">
+	<title>Kartiki Sharma | An Aspiring Web Developer</title>
+  	<meta charset="utf-8"/>
+  	<meta name="description" content="Personal Website: Portfolio">
+  	<meta name="keywords" content="Kartiki, Sharma, Waterloo, CS, computer,
+  	science, uwaterloo, software, web, design, development">
+  	<!-- Links below are still under construction -->
+  	<!-- Bootstrap core CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto|Arimo|Open-Sans|Droid-Sans|Droid-Serif"
+    rel="stylesheet" type="text/css">
+    <!--Till here -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+
 </head>
 
 <body id="top">
   <!-- Adjust Header to Include Intro/About -->
-  <header>
-    <h1>Kartiki Sharma</h1>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#blog">Blog</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-      <a href="#resume">Resume</a>
-    </nav>
-  </header>
-    <section id="about">
-      <h1>About Me</h1>   <!-- Adjust the headline type of all sub-sections-->
-      <!--Insert Picture of Self -->
-      <p>Hi! My name is Kartiki Sharma and I am passionate
-        about Design and Technology. For this reason, I am continually
-        seeking for more knowledge and developing my skills in Web & App
-        Development.
-        
-        Currently, I am studying Computer Science (Honours, Co-op) at the 
-        University of Waterloo. I enjoy learning about new technologies, 
-        especially those that can help me improve my life and provide me a 
-        creative outlet.
-        
-        In my spare time, I like to try various art mediums, travel, and 
-        improve my French skills. I also like working with children and 
-        taking on volunteer tasks which educate and encourage them to 
-        pursue their interests.
-      </p>
-    </section>
-    
-    <section id="Work">
-      <h1>Work</h1>
-      <section id="Skills">
-        <h3>Skills</h3>
+	<header>
+  	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+  			<div class="navbar-header">
+      			<a class="navbar-brand" href="website.html">
+        		<img src="images/header-logo.png" alt="KS logo" width="50px" class="img-responsive"></a>
+    		</div>
+      		<ul class="nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
+        		<li><a href="#about">about</a></li>
+        		<li><a href="#work">work</a></li>
+        		<li><a href="http://kartiki.postach.io" target="_blank">blog</a></li>
+        		<li><a href="#contact">contact</a></li>
+        		<li><a href="pages/resume">resume</a></li>
+      		</ul>
+  		</div>
+  	</nav>
+  	</header>
+		<div id="wrapperHeader">
+			<div id="header" class="fade-in">
+					<img class="fade-in logo" src="images/header-logo.png" alt="KS logo"/>
+			</div>
+		</div>
+		<div id="about">
+    		<h1><strong>Hello</strong></h1>
+    		<!--Insert Picture of Self -->
+    		<div class="container text-left">
+    		<p id="intro" class="container lead">My name is Kartiki Sharma and I am particularly
+            passionate about Design and Technology. For this reason, I continually
+            seek more knowledge and develop my skills in Web Development.</p>
+
+            <p id="current pursuit">Currently, I am studying Computer Science
+            (Honours, Co-op) at the University of Waterloo. I enjoy learning
+            about new technologies, especially those that can help me improve
+            my life and provide me a creative outlet.</p>
+
+            <p id="interests">In my spare time, I like to try various art mediums,
+            travel, and improve my French skills. I also like working with children
+            and taking on volunteer tasks which educate and encourage them to
+            pursue their interests.</p>
+            </div>
+        </div>
+
+    <div id="work">
+      <h1><strong>My Work</strong></h1>
+      <div id="skills" class="container">
+        <h2 class="text-capitalize">Skills</h2>
         <!-- when the below icons are hovered over,
         give a quick summary of how the skill was developed -->
-        <img href=#html5>
-        <img href=#css>
-        <img href=#racket>
-        <img href=#C>
-        <img href=#python>
-      </section>
-      <section id="Side Projects">
-        <h3>Side Projects</h3>
-        
-    </section>
+        <div class="skill-menu">
+            <a href="#modal-1" class="modalLink"><img class="myimg" src="images/html5-icon 2.png" alt="html5 icon"></a>
+            <a href="#modal-2" class="modalLink"><img class="css3" src="images/css3.png" alt="css3 icon"></a>
+            <a href="#modal-3" class="modalLink"><img src="images/racket.png" alt="racket icon" class="myimg2"></a>
+            <a href="#modal-4" class="modalLink"><img class="myimg2" src="images/c.png" alt="c icon"></a>
+            <a href="#modal-5" class="modalLink"><img class="myimg2" src="images/python.png" alt="python icon"></a>
+        </div>
+			</div>
 
+			<!-- modals -->
+			<div class="md-modal md-effect-1" id="modal-1">
+				<div class="md-content">
+					<h3>Modal Dialog</h3>
+					<div>
+						<p>This is a modal window. You can do the following things with it:</p>
+						<ul>
+							<li><strong>Read:</strong> Modal windows will probably tell you something important so don't forget to read what it says.</li>
+							<li><strong>Look:</strong> modal windows enjoy a certain kind of attention; just look at it and appreciate its presence.</li>
+							<li><strong>Close:</strong> click on the button below to close the modal.</li>
+						</ul>
+						<button class="md-close">Close me!</button>
+					</div>
+				</div>
+			</div>
+			<div class="md-overlay"></div>
+			<!-- end of modals -->
+
+      <div id="projects" class="container">
+        <h2 class="text-capitalize">Side Projects</h2>
+          <h3 class="text-left">Self Studying HTML, CSS &amp; JavaScript</h3>
+          <p>I have been studying HTML & CSS in depth through the informative
+          <a href="http://learn.shayhowe.com/html-css/" target="_blank">guides made by Shaye Howe</a>
+          and web-developement project website,
+          <a href="https://dash.generalassemb.ly/projects" target="_blank">Dash</a>.
+          Along side, I have been studying JavaScript for future projects and use of JQuery.
+          Besides coding my personal website from scratch, here are other pages I have coded:</p>
+          <ul>
+            <li><a href="https://dash.generalassemb.ly/kartiki/build-your-own-personal-website" target="_blank">
+            Simple contact page</a></li>
+            <li><a href="https://dash.generalassemb.ly/kartiki/build-your-own-blog-theme" target="_blank">Art blog page</a></li>
+          </ul>
+          <p>To view source code for these projects, check out my <a href="https://github.com/kartikisharma">Github!</a>
+          </p>
+      </div>
+	</div>
+
+<!-- Omitting For Now
     <section id="interests">
       <h1>Other Interests</h1>
       <section id="photography">
@@ -82,15 +131,25 @@
         <a href="....">See more</a>
       </section>
     </section>
+Till Here -->
+<!-- New Idea: Penfolio area for when I make better use of codepen -->
 
-    
-
-
-
-  <a href="#top">Return to top</a>
+<div id="contact">
+  <h1><strong>Get in Touch!</strong></h1>
+  <!-- Links to Facebook, E-mail, GitHub, Codepen -->
+  <a href="https://github.com/kartikisharma" target="_blank">Github</a>
+  <a href="https://www.facebook.com/kartiki.sharma.1272" target="_blank">Facebook</a>
+  <a href="mailto:k35sharm@uwaterloo.ca?subject=Reaching%20Out">Mail</a>
+</div>
   <footer>
     <small>&copy; Kartiki Sharma 2016</small>
   </footer>
+	<!-- Bootstrap core JavaScript-->
+    <!-- At the end of the file to load the pages faster -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 </body>
 
 </html>

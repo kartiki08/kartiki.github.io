@@ -1,5 +1,6 @@
 @import "normalize.css";
 @import "genericons.css";
+
 body, html {
 	margin: 0;
 	padding: 0;
@@ -28,16 +29,16 @@ h1, h2, h3 {
 */
 
 .myimg {
-	height: 250px;
-	width: 250px;
+	height: 150px;
+	width: 150px;
 }
 .css3 {
-	height: 225px;
-	width: 200px;
+	height: 125px;
+	width: 100px;
 }
 .myimg2 {
-	height: 225px;
-	width: 225px;
+	height: 125px;
+	width: 125px;
 }
 
 /*
@@ -172,7 +173,7 @@ div#wrapperHeader div#header img {
   ========================================
 */
 .navbar {
-	background: white;
+	background: rgba(0,0,0,0.5);
 	margin: 0 auto;
 	padding: 15px;
 

@@ -41,13 +41,6 @@ h1, h2, h3 {
 }
 
 /*
-.skill-menu img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-*/
-
-/*
   ========================================
   Color Schemes
   ========================================
@@ -69,7 +62,6 @@ h3 {
 	padding: 20px;
 }
 #intro {
-	/*padding: 0 50px; */
 	font-size: 20px;
 }
 #work {
@@ -91,7 +83,7 @@ h3 {
   ========================================
 */
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 #bs-example-navbar-collapse-1 a {
@@ -101,43 +93,17 @@ a {
 }
 
 #bs-example-navbar-collapse-1 a:hover {
-  color: #a9b2b9;
-
+	color: #a9b2b9;
 }
 p a {
-  border-bottom: 1px solid #dfe2e5;
+	border-bottom: 1px solid #dfe2e5;
 }
 #projects a {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 #projects a:hover {
 	color: #FF6A5C;
-}
-
-/*
-  ========================================
-  Buttons
-  ========================================
-*/
-
-.btn {
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  letter-spacing: .5px;
-  margin: 0;
-  text-transform: uppercase;
-}
-.btn-alt {
-  border: 1px solid #fff;
-  padding: 10px 30px;
-}
-.btn-alt:hover {
-  background: #fff;
-  color: #648880;
 }
 
 /*
@@ -146,29 +112,29 @@ p a {
   ========================================
 */
 .navbar-brand {
-margin: -20px;
+	margin: -20px;
 }
 
 div#wrapperHeader {
- width: 100%;
- height: 715px;
+	width: 100%;
+	height: 715px;
  /* image used below is edited from:
- 		Handpainted Gouache Digital Papers
-		by AnzhelikaGerman */
- background:url(images/floralback.png) repeat-x 0 0;
- text-align:center;
+ Handpainted Gouache Digital Papers
+by AnzhelikaGerman */
+	background:url(images/floralback.png) repeat-x 0 0;
+	text-align:center;
 }
 
 div#wrapperHeader div#header {
- width:1000px;
- height:700px;
- margin:0 auto;
+	width:1000px;
+	height:700px;
+	margin:0 auto;
 }
 
 div#wrapperHeader div#header img {
- width: 350px;
- height: 375px;
- margin: 150px auto;
+	width: 350px;
+	height: 375px;
+	margin: 150px auto;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -177,45 +143,27 @@ div#wrapperHeader div#header img {
 
 .fade-in {
 	opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	animation-duration: 1.5s;
 }
 
 .fade-in.logo {
 	-webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
 }
 
 .header p {
 	font-size: 25px;
-}
-/*
-  ========================================
-  Primary footer
-  ========================================
-*/
-
-.footer {
-	background: white;
-	color: black;
-	font-size: 20px;
-	margin: 20px;
-	padding: 15px;
-}
-.footer small {
-	margin: 20px;
-	padding: 15px;
-	font-weight: 400;
 }
 
 /*
@@ -281,12 +229,38 @@ div#wrapperHeader div#header img {
 }
 
 .md-perspective body  {
-	/*background: #222;  */
 	perspective: 700px;
 }
 
 .container {
-	/*background: #e74c3c; */
-		min-height: 100%;
+	min-height: 100%;
 }
 
+/*
+  ========================================
+  Genericons
+  ========================================
+*/
+.genericon-github, .genericon-facebook, .genericon-mail {
+	width: 100px;
+	height: 100px;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+	background: white;
+	color: black;
+	font-size: 20px;
+	margin: 20px;
+	padding: 15px;
+}
+.footer small {
+	margin: 20px;
+	padding: 15px;
+	font-weight: 400;
+}

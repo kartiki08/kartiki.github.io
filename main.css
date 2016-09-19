@@ -242,11 +242,11 @@ div#wrapperHeader div#header img {
   Genericons
   ========================================
 */
-span .genericon {
+span.genericon {
 	font-size: 200%;
 }
 
-span .genericon:hover {
+span.genericon:hover {
 	color: rgba(255,255,255, 0.7);
 }
 
@@ -266,6 +266,7 @@ span .genericon:hover {
 
 .footer li {
 	display: inline-block;
+	margin: 1em;
 }
 
 .footer ul {

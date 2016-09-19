@@ -242,9 +242,12 @@ div#wrapperHeader div#header img {
   Genericons
   ========================================
 */
-.genericon-github, .genericon-facebook, .genericon-mail {
-	width: 100px;
-	height: 100px;
+span .genericon {
+	font-size: 200%;
+}
+
+span .genericon:hover {
+	color: rgba(255,255,255, 0.7);
 }
 
 /*
@@ -260,8 +263,21 @@ div#wrapperHeader div#header img {
 	margin: 20px;
 	padding: 15px;
 }
+
+.footer li {
+	display: inline-block;
+}
+
+.footer ul {
+	list-style: none;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
 .footer small {
 	margin: 20px;
 	padding: 15px;
 	font-weight: 400;
 }
+

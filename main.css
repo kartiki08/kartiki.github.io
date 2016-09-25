@@ -702,6 +702,10 @@ h1, h2, h3 {
 #skills, #projects {
 	padding-bottom: 20px;
 }
+.skill-menu {
+  width: 725px;
+  margin: 0 auto;
+}
 
 /*
   ========================================

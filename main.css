@@ -703,8 +703,8 @@ h1, h2, h3 {
 	padding-bottom: 20px;
 }
 .skill-menu {
-  width: 900px;
-  margin: 0 auto;
+	width: 900px;
+	margin: 0 auto;
 }
 
 /*
@@ -757,8 +757,7 @@ h3 {
 }
 #work {
 	padding: 20px 20px 50px 20px;
-
-  width: 1200px;
+	width: 1200px;
 	height:750px;
 	color: white;
 }
@@ -813,7 +812,7 @@ div#wrapperHeader {
  /* image used below is edited from:
  Handpainted Gouache Digital Papers
 by AnzhelikaGerman */
-	background:url("images/floral.png") repeat-x 0 0;
+	background:url("images/floralback.png") repeat-x 0 0;
 	text-align:center;
 }
 div#wrapperHeader div#header {

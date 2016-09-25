@@ -684,7 +684,7 @@ textarea {
 
 /* End of Genericons */
 
-
+/* Main Stylesheet */
 body, html {
 	margin: 0;
 	padding: 0;
@@ -693,8 +693,8 @@ body, html {
 }
 p {
 	font-family: "Open Sans", "Roboto", "Droid Sans", serif;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 40px;
 }
 h1, h2, h3 {
 	text-align: center;
@@ -703,8 +703,8 @@ h1, h2, h3 {
 	padding-bottom: 20px;
 }
 .skill-menu {
-  width: 725px;
-  margin: 0 auto;
+	width: 900px;
+        margin: 0 auto;
 }
 
 /*
@@ -712,18 +712,22 @@ h1, h2, h3 {
   Images
   ========================================
 */
+.image {
+  padding: 10px;
+}
 
 .myimg {
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
+
 }
 .css3 {
-	height: 125px;
-	width: 100px;
+	height: 175px;
+	width: 150px;
 }
 .myimg2 {
-	height: 125px;
-	width: 125px;
+	height: 175px;
+	width: 175px;
 }
 
 /*
@@ -745,16 +749,17 @@ h3 {
 #about {
 	background: #f1c1c0;
 	color: white;
-	height: 500px;
+	height:500px;
 	padding: 20px;
 }
 #intro {
 	font-size: 20px;
 }
 #work {
-	padding: 20px;
-        width: 1200px;
-	height: 700px;
+	padding: 20px 20px 50px 20px;
+
+  width: 1200px;
+	height:750px;
 	color: white;
 }
 #work p {
@@ -762,7 +767,7 @@ h3 {
 }
 #contact {
 	padding: 20px;
-	height: 500px;
+	height:700px;
 	background: #f1c1c0;
 	color: white;
 }
@@ -919,12 +924,13 @@ div#wrapperHeader div#header img {
   ========================================
 */
 span.genericon {
-	font-size: 200%;
+	font-size: 400%;
         color: #be0030;
 	transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
+	padding: 50px;
 }
 span.genericon:hover {
 	color: rgba(255,255,255, 0.7);
@@ -937,33 +943,25 @@ span.genericon:hover {
 
 /*
   ========================================
-  Footer
+  Footer/Contact
   ========================================
 */
 
 #contact p {
+	font-size: 20px;
+	padding-top: 25px;
 	text-align: center;
 }
 #contact {
 	color: black;
 	font-size: 20px;
 }
-#contact ul {
-  display: inline;
-  list-style-type: none;
-  padding: 0;
-	margin: 0;
 
+.social-bar {
+	display: table;
+	margin: 0 auto;
 }
-#contact li {
-  display: inline-block;
-  margin: 1em;
 
-}
-.center {
-  width: 100px;
-  margin: 0 auto;
-}
 footer {
-  text-align: center;
+	text-align: center;
 }

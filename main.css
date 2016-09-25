@@ -741,6 +741,7 @@ h3 {
 #about {
 	background: #f1c1c0;
 	color: white;
+	height: 500px;
 	padding: 20px;
 }
 #intro {
@@ -748,6 +749,8 @@ h3 {
 }
 #work {
 	padding: 20px;
+  width: 1200px;
+	height: 700px;
 	color: white;
 }
 #work p {
@@ -755,6 +758,8 @@ h3 {
 }
 #contact {
 	padding: 20px;
+  width: 1200px;
+	height: 500px;
 	background: #f1c1c0;
 	color: white;
 }
@@ -912,6 +917,7 @@ div#wrapperHeader div#header img {
 */
 span.genericon {
 	font-size: 200%;
+  color: #be0030;
 	transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
@@ -925,34 +931,33 @@ span.genericon:hover {
     	-o-transition: all 0.5s ease-in-out;
 }
 
+
+
 /*
   ========================================
   Footer
   ========================================
 */
 
-.footer p {
+#contact p {
 	text-align: center;
 }
-.footer {
-	background: white;
+#contact {
 	color: black;
 	font-size: 20px;
-	margin: 20px;
-	padding: 15px;
 }
-.footer ul {
-	list-style-type: none;
-	display: inline;
-	padding: 0;
+#contact ul {
+  padding: 0;
 	margin: 0;
 }
-.footer li {
+#contact li {
+  margin: 1em;
 	display: inline-block;
-	margin: 1em;
 }
-.footer small {
-	margin: 20px;
-	padding: 15px;
+#contact small {
 	font-weight: 400;
+}
+#center {
+  width: 75px;
+  margin: 0 auto;
 }
